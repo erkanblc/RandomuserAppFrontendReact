@@ -3,7 +3,7 @@ import { FormControl, InputLabel, Input, Box, FormHelperText, Button } from "@mu
 //import { PostWithoutAuth } from "../../services/HttpService";
 import { useNavigate } from "react-router-dom";
 
-function Auth() {
+function Auth({setIsAuthenticated}) {
 
     const [userName, setUserName] = useState("")
     const [password, setPassword] = useState("")
